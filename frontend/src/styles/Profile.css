@@ -1,0 +1,28 @@
+.profile{
+    display: inline;
+    border-radius: 25px;
+    color: black;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+
+    padding: 5px;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.username-text{
+    display: inline;
+    margin-left: 15px;
+    font-size: 1.2rem;
+}
+
+.text{
+    margin-left: 50px;
+    font-size: 1rem;
+}
+
+.profile-username-container{
+    margin-bottom: 15px;
+}

@@ -1,0 +1,49 @@
+.messages {
+    border: 1px solid;
+    height: 75vh;
+    color: white;
+    padding: 50px;
+    padding-top: 15px;
+}
+
+.message-holder {
+    height: 95%;
+    overflow: auto;
+}
+
+.message-sender {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+}
+
+.form-control {
+    width: 70%;
+    display: inline;
+    font-weight: bold;
+}
+
+.send-btn {
+    margin-left: 10px;
+}
+
+div[data-first="true"] {
+    margin-top: 15px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2a2f33;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #485057;
+}

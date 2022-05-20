@@ -1,0 +1,7 @@
+.heading-text{
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar-collapse.in {
+    display: block !important;
+}

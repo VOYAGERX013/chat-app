@@ -1,0 +1,26 @@
+.button-container{
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    width: 45px;
+    z-index: 10;
+}
+
+.add-btn{
+    border-radius: 40px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    width: 100%;
+    padding: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: white;
+    border: none;
+    text-align: center;
+}
+
+.add-btn:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}

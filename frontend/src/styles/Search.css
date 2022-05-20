@@ -1,0 +1,12 @@
+.search-bar{
+    width: 70vw;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.input-search-bar{
+    padding: 5px;
+    width: 60%;
+}

@@ -1,0 +1,41 @@
+
+.error{
+  position: absolute;
+  top: 10px;
+  background: #ED4337;
+  padding: .75rem;
+  border-radius: 5px;
+  animation-name: error-animation;
+  animation-duration: .50s; 
+  animation: error-animation 1s;
+  right: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.close-error{
+  background: #ED4337;
+  border: none;
+  padding-right: 10px;
+  display: inline;
+  font-size: .9rem;
+}
+
+.close-error:hover{
+  cursor: pointer;
+}
+
+.error > h4{
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+
+@keyframes error-animation{
+  from {
+    right: -100px;
+  }
+  to {
+    right: 25px;
+  }
+}

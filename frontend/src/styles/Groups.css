@@ -1,0 +1,8 @@
+.all-groups{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.row{
+    overflow: auto;
+}
